@@ -1,0 +1,277 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont.woff') format('woff'),
+  url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+	background: #EDEADF;
+}
+body{
+	background: #EDEADF !important;
+	color: #646464;
+}
+.cjx-head{
+	width: 100%;
+	background: #e0d9c9;
+	height: 120px;
+}
+.cjx-headcon{
+	width: 980px;
+	height: 120px;
+	margin: 0 auto;
+}
+.cjx-head img{
+	margin-top: 38px;
+}
+.cjx-font{
+	float: right;
+	margin-top: 27px;
+	color: #700c6c;
+	font-size: 16px;
+	width: 600px;
+	font-weight: 600;
+}
+.cjx-font .cjx-font1{
+	float: right;
+}
+.nav{
+	width: 770px;
+	height: 33px;
+	background: #700C6C;
+	margin-left: 210px;
+}
+.nav {
+	list-style: none;
+	width: 770px;
+	background: url(../imgs/titleback.png) no-repeat;
+	background-position: -6px;
+}
+.nav li{
+	margin-top: 5px;
+	list-style: none;
+	float: left;
+	border-right: 2px solid #fff;
+}
+.nav li:nth-last-of-type(1){
+	border-right: none;
+}
+.nav li a{
+	font-size: 15px;
+	color: #FFFFFF;
+	padding: 0 17px;
+	
+}
+.cjx-contact{
+	
+    width: 980px;
+    height: auto;
+    background: #EDEADF;
+    margin: 18px auto;
+    overflow: hidden;
+}
+.cjx-left{
+	float: left;
+}
+.cjx-leftnav{
+	width: 250px;
+	height: 40px;
+	background: url(../imgs/leftnav.png) no-repeat -2px;
+}
+.cjx-leftnav span{
+	display: block;
+	padding-top: 6px;
+	padding-left: 60px;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.cjx-lefttitle{
+	min-height: 665px;
+	background: #e0d5ba;
+	background: url(../imgs/leftback.png) no-repeat;
+}
+.cjx-lefttitle li{
+	line-height: 43px;
+	padding-left: 30px;
+	font-size: 14px;
+	background: #E0D5BA;
+	cursor: pointer;
+}
+.cjx-lefttitle li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+	color: #646464;
+}
+/*.cjx-lefttitle li:hover{
+	font-size: 16px;
+	color: #700c6c;
+	background: #FFFFFF !important;
+	font-weight: 600;
+}*/
+.active{
+	font-size: 16px !important;
+	color: #700c6c;
+	background: #FFFFFF !important;
+	font-weight: 600;
+}
+.active .iconfont{
+	color: #ffc94b;
+}
+.cjx-lefttitle .active a{
+	color: #700C6C;
+}
+.cjx-right{
+	width:730px;
+	min-height: 705px;
+	float: right;
+	background: #FFFFFF;
+	position: relative;
+}
+.cjx-right p{
+	line-height: 26px;
+	text-indent: 2em;
+	font-size: 14px;
+	padding: 0 26px;
+	margin-top: 20px;
+	
+}
+.cjx-righttop{
+	width: 705px;
+	height:28px ;
+	margin: 0 auto;
+	border-bottom: 1px solid #700c6c;
+	padding-top: 10px;
+	font-size: 14px;
+}
+.cjx-righttop span{
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+.footer{
+	width:100%;
+	height:53px;
+	background-color:#700c6c;
+	text-align:center;
+	font-size:14px;
+	line-height:53px;
+	color:#fff;
+}
+.cjx-gotop{
+	width: 100px;
+	height: 50px;
+	font-size: 14px;
+	margin-left: 600px;
+}
+.cjx-gotop span{
+	float: left;
+	line-height: 55px;
+	color: #646464;
+}
+.cjx-gotop .iconfont{
+	line-height: 50px;
+	font-size: 30px;
+	margin-top: 3px;
+	margin-right: 10px;
+	color: #aeaeae;
+}
+.banner { 
+	position: relative; 
+	overflow: auto;
+	width: 980px;
+	height: 350px !important; 
+}
+.banner li { 
+	list-style: none; 
+	}
+.banner ul li { 
+	float: left; 
+	}
+.banner ul li img{
+	width: 980px;
+	height: 387px;
+}
+/*navigator*/
+.dots{
+	position:absolute;
+	right:45px;
+	bottom:18px;
+	overflow:hidden;
+	}
+.dots li{
+	width:9px;
+	height:9px;
+	background:#d1d1d1;
+	cursor: pointer;
+	float:left;
+	margin-right:3px;
+	text-indent:-999em;
+	}
+.dots li:hover,.dots .active{
+	background: #cf0606;
+	}
+
+.cjx-banner{
+	margin: auto;
+}
+.cjx-jiaoshou{
+	background: #FFFFFF;
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.cjx-jiaoshou div{
+	width: 980px;
+	margin: 0 auto;
+}
+.cjx-jianjie{
+	width: 980px;
+	margin: 0 auto;
+}
+.more{
+	color:#700C6C
+}
+.cjx-shizi {
+	width: 980px;
+	height: 148px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.cjx-shizi ul li{
+	float: left;
+	margin: 10px 40px 10px 40px;
+}
+.cjx-shizi ul li img{
+	border: solid 3px #ddd7c1;
+	width: 100px;
+	height: 120px;
+}
+.cjx-zhaopian{
+	text-align: center;
+	display: block;
+	margin: 30px auto;
+	
+}
+.cjx-right p{
+	line-height: 26px;
+	text-indent: 2em;
+	font-size: 16px;
+	padding: 0 26px;
+	margin-top: 20px;
+	
+}
+.cjx-right p b{
+	font-size: 18px;
+	color: #000000;
+}

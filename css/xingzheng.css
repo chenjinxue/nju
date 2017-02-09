@@ -1,0 +1,49 @@
+body{background:#edeadf}
+.header{width:100%;height:136px;}
+.header .logo{width:970px;height:92px;margin:0 auto;background:url(../imgs/logo1.png) no-repeat;}
+.header .navBar{width:100%;height:44px;background:#700c6c;}
+.nav{width:815px;margin:0 auto;overflow:hidden;}
+.nav li{padding:13px 0px;float:left;height:17px;}
+.nav li a{display:block;color:#fff;font-size:18px;border-right:2px solid #fff;padding:0 10px;height:19px;line-height:19px;}
+.nav li:last-child a{
+	border-right: none;
+}
+.banner { position: relative; overflow: auto;width: 970px;height: 387px !important; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }
+/*navigator*/
+.dots{position:absolute;right:45px;bottom:18px;overflow:hidden;}
+.dots li{width:9px;height:9px;background:#d1d1d1;cursor: pointer;float:left;margin-right:3px;text-indent:-999em;}
+.dots li:hover,.dots .active{background: #cf0606;}
+
+.wrapper{width:100%;padding:25px 0;position: relative;background: url(../imgs/pic_cloud_left.png) 33% top no-repeat;}
+.wrapper .content{width:970px;margin:0 auto;position: relative}
+
+.column{margin-top:16px;overflow:hidden;}
+.column .left-column{float:left;width:344px;margin-right:19px;}
+.left-column h2{width:100%;height:40px;background:#700c6c;text-indent:22px;line-height:40px;font-size:18px;color:#fff;}
+.left-column .content-info{background:#fff;padding:18px;}
+.left-column .content-info p{line-height:2.4em;text-indent:2em;color:#6b614b;}
+.content-info .more{color:#b10100;}
+.content-info .more:hover{text-decoration:underline;}
+
+
+.column .right-column{float:left;width:606px;}
+.course-column{overflow:hidden;margin-right:-19px;}
+.course-column .course-link{float:left;width:296px;height:124px;margin-right:14px;background:#c9b68a;}
+
+.course-info{margin-left:109px;color:#fff}
+.course-info h3{font-size:30px;margin:6px 0;text-align:center;}
+.course-info p{margin-bottom: 4px;text-align:center;}
+
+.ico1{width:109px;height:124px;background: #c9b68a url(../imgs/ico-1.jpg) left top no-repeat;float:left;}
+.ico2{width:109px;height:124px;background: #c9b68a url(../imgs/ico-2.jpg) left top no-repeat;float:left;}
+
+
+.course-result{margin-top:17px;}
+.course-result h3{width:100%;height:25px;line-height:25px;font-size:18px;color:#700c6c;}
+.result-list ul{border-top:1px solid #690065;background:#fff;padding:12px;overflow:hidden;margin-right:-13px;margin-top:10px;}
+.result-list li{float:left;margin-right:13px;}
+
+.name{font-size: 26px;}
+.footer{width:100%;height:53px;background-color:#e0d9c9;text-align:center;font-size:14px;line-height:53px;color:#fff;border-bottom:7px solid #82237e}

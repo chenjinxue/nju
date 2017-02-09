@@ -1,0 +1,101 @@
+@charset"Utf-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, input, blockquote, p, th, td, button {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+address, caption, code, dfn, strong, th, var, cite, em, i, b {
+    font-style: normal;
+    font-weight: normal
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+html body {
+    background: #FFF;
+    font: 62.5%/1.5 "Microsoft yaHei", "Tahoma", "Arial"
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: none
+}
+button {
+    cursor: pointer;
+    text-align: center
+}
+ol, ul, li {
+    list-style: none
+}
+caption, th, td {
+    text-align: center
+}
+fieldset, img {
+    border: 0
+}
+img {
+    vertical-align: middle
+}
+input[type="radio"] {
+    vertical-align: middle;
+    margin: -2px 0 1px;
+    *margin-bottom: -4px
+}
+input[type="checkbox"] {
+    vertical-align: middle;
+    margin: -2px 0 1px;
+    *margin-bottom: -4px
+}
+input[type="button"] {
+    text-align: center
+}
+a, ins {
+    text-decoration: none
+}
+a:active, a:hover, a:focus {
+    text-decoration: none
+}
+a:focus {
+    outline: none
+}
+/*清除浮动*/
+.clearfix:after {
+    display: block;
+    content: ".";
+    visibility: hidden;
+    height: 0;
+    clear: both
+}
+.clearfix {
+    *zoom: 1
+}
+/*常用的属性集合*/
+.fl{float:left;display: inline;}
+.fr{float:right;display: inline;}
+.cl{clear:left;}
+.cr{clear:right;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+
+.pr{position:relative;}
+.pa{position:absolute;}
+.pf{position:fixed;}
+
+.none{display:none;}
+.hide{visibility:hidden;}
+
+.db{display: block;}
+.di{display:inline;}
+.dib{display: inline-block;}
+.dib-ie{display:inline-block;display:inline;*zoom:1;}

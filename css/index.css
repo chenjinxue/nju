@@ -1,0 +1,14 @@
+.header{width:100%;height:134px;background:url(../imgs/bg_header.png) repeat-x;}
+.header .logo{width:962px;height:134px;margin:0 auto;background:url(../imgs/logo.png) no-repeat;}
+
+.wrapper{width:100%;padding:25px 0;position: relative;background:#e0d9c9 url(../imgs/pic_cloud_left.png) 33% top no-repeat;}
+.content .cloud{width:203px;height:99px;position:absolute;right:-39px;top:-96px;z-index:100;
+    background: url("../imgs/pic_cloud_right.png") no-repeat}
+.wrapper .content{width:960px;margin:0 auto;position: relative}
+.column{width:960px;height:168px;margin-bottom:15px;position: relative;}
+.column a{position:absolute;right:70px;top:38px;width:85px;height:85px;cursor:pointer;}
+.column.a{background:url("../imgs/ban_01.jpg") no-repeat;}
+.column.b{background:url("../imgs/ban_02.jpg") no-repeat;}
+.column.c{background:url("../imgs/ban_03.jpg") no-repeat;}
+
+.footer{width:100%;height:53px;background-color:#63065f;text-align:center;font-size:14px;line-height:53px;color:#fff;}
